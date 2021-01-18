@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Custom Style*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    background-color: #D4CEA7;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main {
+    margin-top: 30px;
+}
+/*Header*/
+.header {
+    background-color:#F96115;
+}
+/*Navbar*/
+.nav {
+    width: 500px;
+}
+.navbar {
+    padding: 30px 0;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+/*Row*/
+.row {
+    display: flex;
+    flex: 0 1 30%;
+    background-color: #005979;
+    color: #ffffff;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 520px;
+    box-shadow: 8px 8px 20px #000000;
+}
+.row-1 ol {
+    padding-bottom: 140px;
+}
+.row li {
+    padding-top: 12px;
+}
+.menu {
+    padding-left: 40px;
+}
+.sub-menu {
+    padding-left: 50px;
+}
+.row-3 ul {
+    list-style: none;
+    list-style-image: url(../media/check-circle.png);
+}
+.row-3 li {
+    padding-bottom: 16px;
+}
+
+/*colum*/
+.col {
+    padding: 70px 0;
+}
+.col dl {
+    font-size: 34px;
+    font-weight: 500;
+    color: #252C22;
+}
+.col dd {
+    font-size: 20px;
+    font-weight: 500;
+    color: #53534e;
+    padding-left: 40px;
+}
+.col-col {
+    padding: 16px 0;
+}
+/*Footer*/
+.footer {
+    background-color: #252C22;
+}
