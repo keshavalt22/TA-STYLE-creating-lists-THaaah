@@ -68,17 +68,50 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.justify-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.line {
+    width: 180px;
+    height: 2px;
+    background-color: #bbb6b6;
+    margin: 6px 0;
+}
+.line-2 {
+    width: 140px;
+} 
+.line-3 {
+    width: 100px;
+}
+.line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.line-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Adipis {
+    background-color: #F5F5F5;
+}
 
 /*Header*/
 .header {
     padding: 30px 30px;
     background-color: #333447;
-    background-image: url(../media/banner.svg);
-    background-repeat: no-repeat;
 }
 .brand {
     font-size: 22px;
     font-weight: 700;
+}
+.i{
+    padding: 0 12px;
+    color: #b9b9b9;
 }
 .header-nav a {
     color: #ffffff;
@@ -117,7 +150,10 @@ body {
 
 .hero {
     text-align: center;
-    padding: 140px 0;
+    background: url(../media/banner.svg) no-repeat;
+    padding: 140px 0px;
+    background-color: #333447;
+    background-size: cover;
 }
 .hero h1 {
     font-size: 44px;
@@ -147,6 +183,34 @@ body {
 .main {
     background-color: #F5F5F5;
 }
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: linear-gradient(to top right, #D1616B 50%,#E96C77 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.icon-box i {
+    color: #ffffff;
+}
+.icon-box-2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: linear-gradient(to top right, #525360 50%,#5B5C6B 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.icon-box-2 i {
+    color: #ffffff;
+}
 .col-1 {
     width: 900px;
     margin: 0 auto;
@@ -157,6 +221,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #555555;
+    padding: 0 24px;
     padding-bottom: 20px;
     text-transform: uppercase;
 }
@@ -209,6 +274,7 @@ body {
     color: #ffffff;
     padding-bottom: 20px;
     text-transform: uppercase;
+    padding: 0 24px;
 }
 .col-2-2 p {
     font-size: 14px;
@@ -259,8 +325,8 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #555555;
-    padding-bottom: 20px;
     text-transform: uppercase;
+    padding: 0px 24px;
 }
 .box-4 .btn {
     border: 3px solid #bebdbd;
@@ -301,6 +367,7 @@ body {
     color: #555555;
     padding-bottom: 20px;
     text-transform: uppercase;
+    padding: 0 24px;
 }
 .col-4-4 p {
     line-height: 1.7;
